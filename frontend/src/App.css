@@ -80,6 +80,33 @@
   cursor: default;
 }
 
+.notFound-div {
+  display: flex;
+  justify-content: center;
+  height: 78vh;
+}
+
+.notFound-div svg {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  max-height: 80vh;
+  margin-top: 30vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.notFound-text {
+  display: flex;
+  margin-top: inherit;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 .formControl {
   display: flex;
   flex-direction: column;
@@ -93,6 +120,19 @@
   .formControl {
     display: flex;
     flex-direction: row;
+  }
+
+  .notFound-div svg {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    max-height: 80vh;
+    margin-top: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
   }
 }
 

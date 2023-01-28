@@ -4,6 +4,9 @@ import { TransactionContext } from "../contexts/transactionContext";
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
 import { Typography } from "@mui/material";
+import LuneComponent from "../components/lune";
+import ItemsComponent from "../components/Items";
+import AstronautComponent from "../components/astronaut";
 
 
 export default function TransactionPage() {
@@ -31,9 +34,14 @@ export default function TransactionPage() {
                             <Pagination count={Math.ceil((count / 8))} page={pagination} onChange={handlePaginate} color="primary" />
                         </Stack>
                     </> : <>
-                        <Typography sx={{ fontSize: 17, display: 'flex', height: '100%', alignItems: 'center' }}>
-                            Por enquanto nada aqui...
-                        </Typography>
+                        <div className="notFound-div">
+                            <LuneComponent />
+                            <ItemsComponent />
+                            <AstronautComponent />
+                            <p className="notFound-text">
+                                Por enquanto nada por aqui...
+                            </p>
+                        </div>
                     </>}
         </>
 

@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="astronaut-v3"
+        viewBox="0 0 1495 1050"
+        shape-rendering="geometricPrecision"
+        text-rendering="geometricPrecision"
+        style="background-color: rgba(255, 255, 255, 0)"
+      >
+        <g id="astronaut-v3-circle" transform="translate(322.390015 99.610992)">
+          <circle
+            id="astronaut-v3-circle2"
+            r="424.511"
+            transform="translate(425.11 425.389)"
+            fill="#f0f0f4"
+          />
+          <circle
+            id="astronaut-v3-copy-of-circle"
+            r="424.511"
+            transform="translate(425.11 425.389)"
+            fill="#f0f0f4"
+          />
+          <g id="astronaut-v3-stars" transform="translate(0 17.640825)">
+            <g id="astronaut-v3-stars2">
+              <circle
+                id="astronaut-v3-circle3"
+                r="8.56445"
+                transform="translate(113.285 681.761)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle4"
+                r="6.51837"
+                transform="translate(293.04 654.996)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle5"
+                r="6.51837"
+                transform="translate(65.1707 519.777)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle6"
+                r="6.51837"
+                transform="translate(538.78 62.3172)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle7"
+                r="6.51837"
+                transform="translate(420.384 137.903)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle8"
+                r="6.51837"
+                transform="translate(497.393 115.651)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle9"
+                r="6.51837"
+                transform="translate(655.999 189.471)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle10"
+                r="6.51837"
+                transform="translate(777.962 287.308)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle11"
+                r="6.51837"
+                transform="translate(620.929 664.478)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle12"
+                r="6.51837"
+                transform="translate(337.354 385.796)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle13"
+                r="6.51837"
+                transform="translate(215.589 109.133)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle14"
+                r="6.51837"
+                transform="translate(759.596 170.981)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle15"
+                r="6.51837"
+                transform="translate(730.632 174.8)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle16"
+                r="6.51837"
+                transform="translate(703.436 145.484)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle17"
+                r="6.51837"
+                transform="translate(610.218 170.592)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle18"
+                r="6.51837"
+                transform="translate(662.518 283.97)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle19"
+                r="6.51837"
+                transform="translate(829.948 413.269)"
+                fill="#fff"
+              />
+              <circle
+                id="astronaut-v3-circle20"
+                r="6.51837"
+                transform="translate(23.1395 559.605)"
+                fill="#fff"
+              />
+              <path
+                id="astronaut-v3-path46"
+                d="M50.2578,242.725c1.4-.2,2.9-.2,4.3-.2c1.2,2.8,1.2,3.9.1,6.7-1.4,0-3,0-4.4-.3-.8-.9-1.4-2.1-2-3.2.6-1.1,1.1-2.2,2-3Zm105.0002,48.3c-1.5.1-3-.5-4.4-.9-.1-1.7-.1-3.4,0-5.1c1.4-.6,2.8-1.1,4.4-1.3c1,.9,1.9,1.9,2.9,2.8c0,.7,0,1.4,0,2.1-.9.8-1.8,1.7-2.9,2.4Zm450.6-48.2c2.3-.4,4.5-.8,6.8-1.1.4-2.1.8-4.1,1.6-6.1.7-.2,1.4-.3,2.1-.5.5.5,1,1,1.5,1.5.1,1.6.1,3.2.2,4.9c1.4.5,2.7.9,4.1,1.6c1.4,3.3-2.3,3-4.4,3.6-.3,2-.6,4-1,5.9-1.2.1-2.3.2-3.5.2-.7-2.1-1-4.1-1.1-6.2-2.1-.1-4.2-.2-6.3-.4-.1-1.2-.1-2.3,0-3.4Zm11,31.2c-.8,2.1-.9,4-3.1,5.1-1.5.2-3-.6-4.4-1-.1-1.7-.1-3.4,0-5.1c1.2-.9,2.6-2.5,4.2-2.3c1.8-.2,2.3,2.2,3.3,3.3ZM432.958,2.12531c1.3-.6,2.6-1.1,4.1-1c2.6-.200003,5.4.9,5.1,4-.2,4-5.8,4.20001-8.1,1.90001-1.7-1.3-1.6-3.10001-1.1-4.90001ZM400.558,569.525c-3.1,0-5.9-.9-6.4-4.3-.4-2.7,1.3-3.7,3.3-5c1.4.5,3,.9,4.1,1.9c1.5,1.3,1,3.5,1.2,5.3-.8.7-1.5,1.4-2.2,2.1Zm32.4-34.6c-.2,3.6-4.7,5.7-7.6,3.4-2.9-1.9-3.6-7-.3-8.8c3.4-1.5,8.4,1.3,7.9,5.4Zm181.2,26.4c-2.2,1.6-3.9.1-5.9-1c.2-1.9-.3-4.1,1.2-5.6c1.2-1.7,3.5-1,5.2-1.1c1.4,2.7,2.4,5.6-.5,7.7Zm31.4-205.3c-2.7-2.7-1.3-8.7,3.2-8.3c2.9,2.7,2,5.1.7,8.4-1.3,0-2.7.1-3.9-.1Z"
+                fill="#fff"
+                stroke="#f0f0f4"
+                stroke-miterlimit="10"
+              />
+            </g>
+          </g>
+        </g>
+        <g id="astronaut-v3-dots">
+          <g id="astronaut-v3-dot-1" transform="translate(0.000002 0.000001)">
+            <path
+              id="astronaut-v3-path47"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(351.225527 383.053227)"
+              fill="#010101"
+            />
+          </g>
+          <g
+            id="astronaut-v3-copy-of-dot-1"
+            transform="translate(0.000002 0.000001)"
+          >
+            <path
+              id="astronaut-v3-path48"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(928.225527 98.053227)"
+              fill="#010101"
+            />
+          </g>
+          <g
+            id="astronaut-v3-copy-of-dot-1-2"
+            transform="translate(0.000002 -8.029211)"
+          >
+            <path
+              id="astronaut-v3-path49"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(1094.225527 661.053227)"
+              fill="#010101"
+            />
+          </g>
+          <g
+            id="astronaut-v3-copy-of-dot-1-3"
+            transform="translate(0.000002 -15.531691)"
+          >
+            <path
+              id="astronaut-v3-path50"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(994.225527 776.053227)"
+              fill="#010101"
+            />
+          </g>
+          <g
+            id="astronaut-v3-copy-of-dot-1-4"
+            transform="translate(0.000002 -7.478326)"
+          >
+            <path
+              id="astronaut-v3-path51"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(915.225527 798.053227)"
+              fill="#010101"
+            />
+          </g>
+          <g
+            id="astronaut-v3-copy-of-dot-1-5"
+            transform="translate(0.000002 -10.930485)"
+          >
+            <path
+              id="astronaut-v3-path52"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(1048.225527 189.053227)"
+              fill="#010101"
+            />
+          </g>
+          <g
+            id="astronaut-v3-copy-of-dot-1-6"
+            transform="translate(0.000002 -9.321041)"
+          >
+            <path
+              id="astronaut-v3-path53"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(1141.225527 387.053227)"
+              fill="#010101"
+            />
+          </g>
+          <g
+            id="astronaut-v3-copy-of-dot-1-7"
+            transform="translate(0.000002 -18.81318)"
+          >
+            <path
+              id="astronaut-v3-path54"
+              d="M5.79932,67.2998c.3-1.2,1.49999-3,.79999-4.1-.7-1.9-3.69997-3.5-5.09997-1.3-1.000004,1.1-.800004,2.9,0,4.1c1,1.5,2.79998,1,4.29998,1.3Z"
+              transform="translate(1147.225527 477.053227)"
+              fill="#010101"
+            />
+          </g>
+        </g>
+        <g id="astronaut-v3-star">
+          <g id="astronaut-v3-star2" transform="translate(509.000002 -40.260472)">
+            <g id="astronaut-v3-star3">
+              <path
+                id="astronaut-v3-path55"
+                d="M465.399,200.2c.2-3.6.6-7-.4-10.5-1.1.1-2.1.2-3.2.4-.9,3.2-.6,6.9-.8,10.2-2.8.4-6.1-.1-8.7.9-.4,1-.8,2.1-1.1,3.2c3.1,1.2,6.2,1.5,9.5,1.7.1,2.8-.3,6,.6,8.6.9.6,1.8,1.1,2.8,1.5c1.1-3.4,1.1-6.8,1.1-10.3c3.1-.3,7.3.3,9.8-1.9.4-1,.6-2,.8-3.1-3.5-1.2-6.8-.8-10.4-.7Z"
+                fill="#010101"
+              />
+            </g>
+          </g>
+          <g
+            id="astronaut-v3-copy-of-star"
+            transform="translate(509.000002 -33.436904)"
+          >
+            <g
+              id="astronaut-v3-star4"
+              transform="matrix(.7 0 0 0.7 259.888837 586.39991)"
+            >
+              <path
+                id="astronaut-v3-path56"
+                d="M465.399,200.2c.2-3.6.6-7-.4-10.5-1.1.1-2.1.2-3.2.4-.9,3.2-.6,6.9-.8,10.2-2.8.4-6.1-.1-8.7.9-.4,1-.8,2.1-1.1,3.2c3.1,1.2,6.2,1.5,9.5,1.7.1,2.8-.3,6,.6,8.6.9.6,1.8,1.1,2.8,1.5c1.1-3.4,1.1-6.8,1.1-10.3c3.1-.3,7.3.3,9.8-1.9.4-1,.6-2,.8-3.1-3.5-1.2-6.8-.8-10.4-.7Z"
+                fill="#010101"
+              />
+            </g>
+          </g>
+          <g
+            id="astronaut-v3-copy-of-star-2"
+            transform="translate(509.000002 -35.264456)"
+          >
+            <g
+              id="astronaut-v3-star5"
+              transform="matrix(.7 0 0 0.7-448.111163 296.39991)"
+            >
+              <path
+                id="astronaut-v3-path57"
+                d="M465.399,200.2c.2-3.6.6-7-.4-10.5-1.1.1-2.1.2-3.2.4-.9,3.2-.6,6.9-.8,10.2-2.8.4-6.1-.1-8.7.9-.4,1-.8,2.1-1.1,3.2c3.1,1.2,6.2,1.5,9.5,1.7.1,2.8-.3,6,.6,8.6.9.6,1.8,1.1,2.8,1.5c1.1-3.4,1.1-6.8,1.1-10.3c3.1-.3,7.3.3,9.8-1.9.4-1,.6-2,.8-3.1-3.5-1.2-6.8-.8-10.4-.7Z"
+                fill="#010101"
+              />
+            </g>
+          </g>
+        </g>
+      </svg >

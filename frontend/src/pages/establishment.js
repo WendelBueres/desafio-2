@@ -1,8 +1,11 @@
 import { Pagination, Typography } from "@mui/material";
-import { Stack } from "@mui/system";
+import { Container, Stack } from "@mui/system";
 import { useContext } from "react";
 import CardEstablishmentComponent from "../components/cardEstablishment";
 import { EstablishmentContext } from "../contexts/establishmentContext";
+import Astronaut from "../components/astronaut";
+import Items from "../components/Items";
+import LuneComponent from "../components/lune";
 
 
 export default function EstablishmentPage() {
@@ -26,9 +29,14 @@ export default function EstablishmentPage() {
                         </Stack>
                     </>
                     : <>
-                        <Typography sx={{ fontSize: 17, display: 'flex', height: '100%', alignItems: 'center' }}>
-                            Por enquanto nada aqui...
-                        </Typography>
+                        <div className="notFound-div">
+                            <LuneComponent />
+                            <Items />
+                            <Astronaut />
+                            <p className="notFound-text">
+                                Por enquanto nada por aqui...
+                            </p>
+                        </div>
                     </>
             }
         </>)
