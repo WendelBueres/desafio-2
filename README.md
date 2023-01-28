@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# CNABReader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre
 
-## Available Scripts
+### Funcionalidades:
+O Back-End do CNABReader é responsável por:
+- Interpreta o arquivo CNAB.
+- Formata as informações do arquivo.
+- Armazenar as informações em um Banco de Dados Relacional.
 
-In the project directory, you can run:
+O Front-End do CNABReader é responsável por:
+- Renderizar formulário para requisição de armazenamento no BackEnd de forma amigável.
+- Renderizar os dados das transações armazenadas no Banco de Dados Relacional.
+- Renderizar os dados das empresas registradas nas transações e de seus respectivos proprietários.
 
-### `yarn start`
+### Tecnologias usadas:
+Esse projeto teve seu Front-End programado em JS por meio do framework ReactJS, foi utilizada a biblioteca de estilização Material UI (MUI), o Back-End foi programado em Python por meio do framework Django e Django REST Framework, o Banco de Dados Relacional é implementado por meio do SGBD PostgreSQL.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instruções para executar o CNABReader
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Instalação de dependências e configuração de váriaveis de ambiente:
+<ol>
+<li> Na pasta raiz do projeto crie um ambiente virtual em python por meio dos comando: <code> python -m venv venv</code> </li>
+<li> Inicie o ambiente por meio do comando: <code> ./venv/Scripts/Activate.ps1 </code> </li>
+<li> Instale os dependências essenciais para o Back-End projeto por meio do comando: <code> pip install -r requirements.txt </code> </li>
+<li> Acesse a pasta do Front-End por meio do comando: <code> cd frontend </code> </li>
+<li> Instale as dependências esseciais para o Front-End do projeto por meio do comando: <code> yarn install </code> </li>
+<li> Crie um banco de dados PostgreSQL. </li>
+<li> Preencha as váriaveis de ambiente (.env) conforme o exemplo (.env.example). </li>
+</ol>
 
-### `yarn test`
+### Executando o CNABReader:
+<ol>
+<li> Na pasta raiz do projeto abra um terminal e acesse a pasta backend: <code> cd backend </code> </li>
+<li> Execute as migrações do Django por meio do comando: <code> python manage.py migrate </code> </li>
+<li> Inicie o servidor Django por meio do comando: <code> python manage.py runserver </code> </li>
+<li> Na pasta raiz do projeto abra um novo terminal e acesse a pasta frontend: <code> cd frontend </code> </li>
+<li> Inicie o servidor React por meio do comando: <code> yarn start </code> </li>
+</ol>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para a aplicação funcionar corretamente os dois terminais devem ficar em execução.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Documentação Swagger-UI
+endpoint: http://127.0.0.1:8000/api/docs/
