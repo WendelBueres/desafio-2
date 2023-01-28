@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "react-toastify/dist/ReactToastify.min.css";
+import { EstablishmentProvider } from './contexts/establishmentContext';
+import { TransactionProvider } from './contexts/transactionContext';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <EstablishmentProvider>
+      <TransactionProvider>
+        <App />
+      </TransactionProvider>
+    </EstablishmentProvider>
   </React.StrictMode>
 );
 
