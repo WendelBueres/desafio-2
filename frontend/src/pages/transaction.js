@@ -21,7 +21,7 @@ export default function TransactionPage() {
     return (
         <>
             {
-                transactions.length > 0 ?
+                count !== 0 ?
                     <>
                         <div className="Div-transaction">
                             {transactions.map((transaction) => {

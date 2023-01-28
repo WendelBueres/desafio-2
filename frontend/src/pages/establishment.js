@@ -18,7 +18,7 @@ export default function EstablishmentPage() {
     return (
         <>
             {
-                establishments.length > 0 ?
+                count !== 0 ?
                     <>
                         < div className="Div-establishment" >
                             {(establishments.map((establishment) => <CardEstablishmentComponent key={establishment.id} id={establishment.id} name={establishment.name} balance={establishment.balance} setPagination={setPagination} />))
@@ -28,7 +28,7 @@ export default function EstablishmentPage() {
                             <Pagination count={Math.ceil((count / 8))} page={pagination} onChange={handlePaginate} color="primary" />
                         </Stack>
                     </>
-                    : <>
+                    : establishments === [] ? <></> : <>
                         <div className="notFound-div">
                             <LuneComponent />
                             <Items />
