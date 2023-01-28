@@ -1,0 +1,154 @@
+openapi: 3.0.3
+info:
+  title: CNABReader - API
+  version: 1.0.0
+  description: API para leitura e registro de arquivo CNAB
+paths:
+  /api/cnab/:
+    get:
+      operationId: api_cnab_list
+      tags:
+      - cnab
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CnabSerializers'
+          description: ''
+  /api/establishments/:
+    get:
+      operationId: api_establishments_list
+      tags:
+      - establishment
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/EstablishmentSerializers'
+          description: ''
+  /api/transactions/:
+    get:
+      operationId: api_transactions_list
+      tags:
+      - transaction
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      - {}
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TransactionSerializers'
+          description: ''
+components:
+  schemas:
+    CnabSerializers:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        file:
+          type: string
+          format: uri
+        name:
+          type: string
+          maxLength: 800
+      required:
+      - file
+      - id
+      - name
+    EstablishmentSerializers:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          maxLength: 19
+        balance:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,15}(?:\.\d{0,2})?$
+      required:
+      - id
+      - name
+    TransactionSerializers:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        transaction:
+          type: string
+          maxLength: 80
+        establishment:
+          type: string
+          maxLength: 19
+        type:
+          type: string
+          maxLength: 1
+        date:
+          type: string
+          format: date
+        value:
+          type: string
+          format: decimal
+          pattern: ^-?\d{0,15}(?:\.\d{0,2})?$
+        cpf:
+          type: string
+          maxLength: 11
+        card:
+          type: string
+          maxLength: 11
+        hour:
+          type: string
+          format: time
+        owner:
+          type: string
+          maxLength: 14
+      required:
+      - card
+      - cpf
+      - date
+      - establishment
+      - hour
+      - id
+      - owner
+      - transaction
+      - type
+      - value
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid
+tags:
+- name: cnab
+  description: endpoint cnab
+- name: establishment
+  description: endpoints establishment (estabelecimento)
+- name: transaction
+  description: endpoints transaction (transação)
