@@ -8,6 +8,6 @@ class Transaction(models.Model):
     date = models.DateField()
     value = models.DecimalField(max_digits=17, decimal_places=2)
     cpf = models.CharField(max_length=11)
-    card = models.CharField(max_length=11)
+    card = models.CharField(max_length=12)
     hour = models.TimeField()
     owner = models.CharField(max_length=14)
