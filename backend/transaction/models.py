@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Transaction(models.Model):
-    transaction = models.CharField(max_length=80)
+    transaction = models.CharField(max_length=81)
     establishment = models.CharField(max_length=19)
     type = models.CharField(max_length=1)
     date = models.DateField()
